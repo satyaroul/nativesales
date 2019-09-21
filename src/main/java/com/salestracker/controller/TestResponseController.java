@@ -16,9 +16,7 @@ public class TestResponseController {
 	private TestResponse ts;
 	@GetMapping("response")
 	public List<RetailerResponseModelDTO> testRes(){
-		
-		ts.dealer();
-		
+				
 		return ts.response();
 	}
 	
